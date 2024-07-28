@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <content="width=device-width, initial-scale=1.0>
+        <title>Trilhas | Programação</title>
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <script type="module" src="../assets/js/script.js"></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">TIM AUTISGIRLS</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="trilhas.html" target="_blank" class="active">Trilhas</a>
+            <a href="../talentos/talentos.html" target="_blank">Talentos</a>
+            <a href="#" class="inscricao">Faça sua inscrição</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="heading">
+                <div class="tittle-5">
+                    <h2>Trilha de Programação</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="home-img">
+                    <img src="../img/6.svg" alt="">
+                </div>
+            </div>
+            <div class="trilhas-autoconhecimento">
+                <div class="heading">
+                    <div class="info-text">
+                        <p>
+                            A <span>trilha de programação</span> tem como objetivo capacitar 
+                            as alunas nas principais linguagens de programação Web usadas no mercado de trabalho. 
+                        </p>
+                    </div>
+             </div>
+             <div class="heading">
+                <div class="tittle-4">
+                    <h2>O que irei aprender nesta trilha?</h2>
+                </div>
+            </div>
+                <div class="cards-container-trilhas">
+                    <div class="card-trilhas">Lógica de programação</div>
+                    <div class="card-trilhas">HTML e CSS</div>
+                    <div class="card-trilhas">Javascript</div>
+                </div>
+
+            <div class="heading">
+                <div class="tittle-2">
+                    <h2>Principais dúvidas sobre o programa</h2>
+                </div>
+            </div>
+            <div class="card-text">
+                <div class="card-2">Quem pode participar do programa?</div>
+                    <div class="card-subtext">
+                        <p>O programa de capacitação TIM Autisgirls é dirigido a mulher autista com mais de 18 anos, com 
+                            ensino médio completo e que estejam fora do mercado de trabalho.</p>
+                    </div>
+    
+                <div class="card-2">Quais são as trilhas de capacitação?</div>
+                    <div class="card-subtext">
+                        <p>São oferecidas 4 trilhas de capacitação. A trilha de autoconhecimento é obrigatória para todas as alunas. 
+                            Para as trilhas técnicas, as alunas devem escolher entre programação, design digital e data science no 
+                            ato da inscrição.</p>
+                    </div>
+                    
+                <div class="card-2">Posso me inscrever em mais de uma trilha técnica?</div>
+                     <div class="card-subtext">
+                        <p>Não. As mulheres que se inscreverem para capacitação deverão escolher somente uma trilha técnica 
+                            para se capacitarem durante a jornada no programa.</p>
+                    </div>
+    
+                <div class="card-2">Preciso ter diagnóstico para participar do programa?</div>
+                    <div class="card-subtext">
+                        <p>Sim. Como uma medida de garantia de que somente mulheres autistas serão contempladas pelo programa, exigimos a comprovação do diagnóstico de 
+                            TEA no ato da inscrição por meio do compartilhamento do laudo médico.</p>
+                    </div>
+    
+                 <div class="card-2">O programa concede certificado de conclusão?</div>
+                    <div class="card-subtext">
+                        <p>Sim. Cada trilha concede certificado de conclusão mediante a conclusão de todas as aulas e a realização de todas as 
+                            atividades práticas e desafios. O certificado da capacitação é concedido para as alunas que concluirem a trilha 
+                            de autoconhecimento e a trilha técnica escolhida na inscrição.</p>
+                    </div>
+    
+                 <div class="card-2">Qual o calendário de inscrição e aulas?</div>
+                    <div class="card-subtext">
+                        <p>As inscrições para participar do programa se iniciam no dia 1 de setembro de 2024 e terminam no dia 30 de setembro. 
+                            A divulgação das alunas selecionadas será dia 10 de outubro e as aulas se iniciam dia 14 de 
+                            outubro.</p>
+                    </div>
+    
+                 <div class="card-2">Qual o prazo para conclusão da capacitação?</div>
+                    <div class="card-subtext">
+                        <p>As duas trilhas de capacitação deverão ser concluídas no prazo de 4 (quatro) meses para garantia de certificação. 
+                            As alunas que concluirem somente uma trilha não receberão o certificado da capacitação. </p>
+                    </div>
+    
+                 <div class="card-2">Haverá suporte técnico e pedagógico? </div>
+                    <div class="card-subtext">
+                        <p>Sim. Durante toda a jornada da capacitação, as alunas receberão suporte pedagógico de mentoras preparadas para 
+                            ajuda-las nas suas necessidades de aprendizado. Também será disponibilizada uma comunidade interna, onde as 
+                            alunas poderão compartilhar conhecimento entre si.</p>
+                    </div>
+            </div>
+            <button class="btn">Faça sua inscrição</button>
+        </div>
+    </section>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/home"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="trilhas.html" target="_blank">Trilhas</a>
+            </li>
+            <li>
+                <a href="../talentos/talentos.html">Talentos</a>
+            </li>
+            <li>
+                <a href="#">Inscrição</a>
+            </li>
+            <li>
+                <a href="#">Termos de Uso</a>
+            </li>
+            <p class="copyright">
+                Copyright © 2024 - TIM Autisgirls
+            </p>
+            <div class="copyright-img">
+                <img src="../img/tim.svg" alt="">
+            </div>
+        </ul>
+    </footer>
+</body>
+
+</html>
